@@ -25,7 +25,15 @@
 <td><xsl:value-of select="email"/></td>
 <td><xsl:value-of select="phone"/></td>
 <td><xsl:value-of select="designation"/></td>
-
+<xsl:if test="age &gt;= 50">
+<td>  Associate Project Manager </td>
+</xsl:if>
+<xsl:if test="age &gt;=40 and age &lt;=49">
+<td>  Team Leader </td>
+</xsl:if>
+<xsl:if "age &lt;=40">
+<td> Developer </td>
+</xsl:if>>
 </tr>
 
 </xsl:for-each >
@@ -35,3 +43,12 @@
 </html>
 </xsl:template>
 </xsl:stylesheet>
+
+
+<xsl:if test="price &gt; 10">
+        <tr>
+          <td><xsl:value-of select="title"/></td>
+          <td><xsl:value-of select="artist"/></td>
+          <td><xsl:value-of select="price"/></td>
+        </tr>
+      </xsl:if>

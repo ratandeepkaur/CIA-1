@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="employee.xsl"?>
 <globalEmployee>
-<Employee fid="idvalue0">
+<Employee fid="1">
 <name>Kamal</name>
 <age>32</age>
 <salary>80000</salary>
@@ -9,7 +9,7 @@
 <phone>8908908907</phone>
 <designation>Developer</designation>
 </Employee>
-<Employee fid="idvalue1">
+<Employee fid="2">
 <name>Karan</name>
 <age>38</age>
 <salary>90000</salary>
@@ -17,7 +17,7 @@
 <phone>8908904560</phone>
 <designation>Manager</designation>
 </Employee>
-<Employee fid="idvalue2">
+<Employee fid="3">
 <name>Arjun</name>
 <age>42</age>
 <salary>95000</salary>
@@ -25,7 +25,7 @@
 <phone>8908904545</phone>
 <designation>Developer</designation>
 </Employee>
-<Employee fid="idvalue3">
+<Employee fid="4">
 <name>Aman</name>
 <age>50</age>
 <salary>150000</salary>
@@ -33,7 +33,7 @@
 <phone>8908904453</phone>
 <designation>Team Leader</designation>
 </Employee>
-<Employee fid="idvalue4">
+<Employee fid="5">
 <name>Chirag</name>
 <age>40</age>
 <salary>96000</salary>
