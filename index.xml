@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="employee.xsl"?>
-<tns:globalEmployee xmlns:tns="http://www.CIA1.org/employee.xsd">
+<globalEmployee>
 <Employee fid="idvalue0">
 <name>Kamal</name>
 <age>32</age>
