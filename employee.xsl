@@ -16,10 +16,10 @@
 <th>Employee Designation</th>
 <th>Employee Promotion</th>
 </tr>
-<xsl:for-each select="tns:Employee">
+<xsl:for-each select="Employee">
 <tr>
 <td><xsl:value-of select="id"/></td>
-<td><xsl:value-of select="tns:name"/></td>
+<td><xsl:value-of select="name"/></td>
 <td><xsl:value-of select="age"/></td>
 <td><xsl:value-of select="salary"/></td>
 <td><xsl:value-of select="designation"/></td>
@@ -27,15 +27,15 @@
 <td><xsl:value-of select="phone"/></td>
 <td><xsl:if "age" &gt;=50>
   Associate Project Manager
-</xsl:if>>
+</xsl:if>
 </td>
 <td><xsl:if "age" &gt;=40 and "age" &lt;=49>
   Team Leader
-</xsl:if>>
+</xsl:if>
 </td>
 <td><xsl:if "age" &lt;=40>
  Developer
-</xsl:if>>
+</xsl:if>
 </td>
 </tr>
 
