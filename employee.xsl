@@ -33,7 +33,7 @@
 </xsl:if>
 <xsl:if "age &lt;=40">
 <td> Developer </td>
-</xsl:if>>
+</xsl:if>
 </tr>
 
 </xsl:for-each >
@@ -43,12 +43,3 @@
 </html>
 </xsl:template>
 </xsl:stylesheet>
-
-
-<xsl:if test="price &gt; 10">
-        <tr>
-          <td><xsl:value-of select="title"/></td>
-          <td><xsl:value-of select="artist"/></td>
-          <td><xsl:value-of select="price"/></td>
-        </tr>
-      </xsl:if>
