@@ -3,6 +3,7 @@
 <xsl:template match="/">
 <html>
 <body>
+<center>
 <h1>Library Manangement System</h1>
 <table border="1">
 <tr>
@@ -32,6 +33,7 @@
 </tr>
 </xsl:for-each >
 </table>
+</center>
 </body>
 </html>
 </xsl:template>
