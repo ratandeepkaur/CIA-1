@@ -34,7 +34,7 @@
 <designation>Team Leader</designation>
 </Employee>
 <Employee fid="idvalue4">
-<name>Chirag</tns:name>
+<name>Chirag</name>
 <age>40</age>
 <salary>96000</salary>
 <email>chirag@gmail.com</email>
