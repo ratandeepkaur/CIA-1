@@ -18,13 +18,14 @@
 </tr>
 <xsl:for-each select="globalEmployee/Employee">
 <tr>
-<td><xsl:value-of select="Employee.fid"/></td>
+<td><xsl:value-of select="fid"/></td>
 <td><xsl:value-of select="name"/></td>
 <td><xsl:value-of select="age"/></td>
 <td><xsl:value-of select="salary"/></td>
-<td><xsl:value-of select="designation"/></td>
 <td><xsl:value-of select="email"/></td>
 <td><xsl:value-of select="phone"/></td>
+<td><xsl:value-of select="designation"/></td>
+
 </tr>
 
 </xsl:for-each >
