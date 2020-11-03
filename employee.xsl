@@ -6,7 +6,7 @@
 <center>
 <h1>Employee Management System</h1>
 <table border="4">
-<tr bgcolor="grey">
+<tr>
 <th>Employee Id</th>
 <th>Employee Name</th>
 <th>Employee Age</th>
