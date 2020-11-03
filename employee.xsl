@@ -31,7 +31,7 @@
 <xsl:if test="age &gt;=40 and age &lt;=49">
 <td>  Team Leader </td>
 </xsl:if>
-<xsl:if test="age &lt;=40">
+<xsl:if test="age &lt;= 40">
 <td> Developer </td>
 </xsl:if>
 </tr>
