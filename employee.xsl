@@ -16,7 +16,7 @@
 <th>Employee Designation</th>
 <th>Employee Promotion</th>
 </tr>
-<xsl:for-each select="employee">
+<xsl:for-each select="Employee">
 <tr>
 <td><xsl:value-of select="id"/></td>
 <td><xsl:value-of select="name"/></td>
