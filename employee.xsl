@@ -24,18 +24,6 @@
 <td><xsl:value-of select="designation"/></td>
 <td><xsl:value-of select="email"/></td>
 <td><xsl:value-of select="phone"/></td>
-<td><xsl:if "age" &gt;=50>
-  Associate Project Manager
-</xsl:if>
-</td>
-<td><xsl:if "age" &gt;=40 and "age" &lt;=49>
-  Team Leader
-</xsl:if>
-</td>
-<td><xsl:if "age" &lt;=40>
- Developer
-</xsl:if>
-</td>
 </tr>
 
 </xsl:for-each >
