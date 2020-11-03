@@ -1,76 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="employee.xsl"?>
-<Library>
-<Issuer-Details>
-<issuer_name>Kamal</issuer_name>
-<book_title>BBC</book_title>
-<check_out_date>1-Oct-2020</check_out_date>
-<due_date>16-Oct-2020</due_date>
-<check_in_date>1-Nov-2020</check_in_date>
-<no_of_days>15</no_of_days>
-<outstanding_days>30</outstanding_days>
-<extra>15</extra>
-<charges>375</charges>
-<status>yes</status>
-</Issuer-Details>
-<Issuer-Details>
-<issuer_name>Arnav</issuer_name>
-<book_title>C Programming</book_title>
-<check_out_date>3-Sep-2020</check_out_date>
-<due_date>18-Sep-2020</due_date>
-<check_in_date>30-Sep-2020</check_in_date>
-<no_of_days>15</no_of_days>
-<outstanding_days>27</outstanding_days>
-<extra>12</extra>
-<charges>330</charges>
-<status>yes</status>
-</Issuer-Details>
-<Issuer-Details>
-<issuer_name>Aparna</issuer_name>
-<book_title>Ramayana</book_title>
-<check_out_date>3-Sep-2020</check_out_date>
-<due_date>18-Sep-2020</due_date>
-<check_in_date>21-Sep-2020</check_in_date>
-<no_of_days>15</no_of_days>
-<outstanding_days>18</outstanding_days>
-<extra>3</extra>
-<charges>195</charges>
-<status>yes</status>
-</Issuer-Details>
-<Issuer-Details>
-<issuer_name>Bhanu</issuer_name>
-<book_title>Medieval History</book_title>
-<check_out_date>5-Sep-2020</check_out_date>
-<due_date>20-Sep-2020</due_date>
-<check_in_date>21-Sep-2020</check_in_date>
-<no_of_days>15</no_of_days>
-<outstanding_days>16</outstanding_days>
-<extra>1</extra>
-<charges>165</charges>
-<status>yes</status>
-</Issuer-Details>
-<Issuer-Details>
-<issuer_name>Chandril</issuer_name>
-<book_title>Operating Systems</book_title>
-<check_out_date>6-Sep-2020</check_out_date>
-<due_date>21-Sep-2020</due_date>
-<check_in_date>29-Sep-2020</check_in_date>
-<no_of_days>15</no_of_days>
-<outstanding_days>23</outstanding_days>
-<extra>8</extra>
-<charges>270</charges>
-<status>yes</status>
-</Issuer-Details>
-<Issuer-Details>
-<issuer_name>Deepali</issuer_name>
-<book_title>RDBMS</book_title>
-<check_out_date>7-Sep-2020</check_out_date>
-<due_date>22-Nov-2020</due_date>
-<check_in_date>26-Nov-2020</check_in_date>
-<no_of_days>15</no_of_days>
-<outstanding_days>19</outstanding_days>
-<extra>4</extra>
-<charges>210</charges>
-<status>yes</status>
-</Issuer-Details>
-</Library>
+<tns:globalEmployee xmlns:tns="http://www.CIA1.org/employee.xsl">
+<tns:Employee fid="idvalue0">
+<tns:name>Kamal</tns:name>
+<tns:age>32</tns:age>
+<tns:salary>80000</tns:salary>
+<tns:email>kamal@gmail.com</tns:email>
+<tns:phone>8908908907</tns:phone>
+<tns:designation>Developer</tns:designation>
+</tns:Employee>
+<tns:Employee fid="idvalue1">
+<tns:name>Karan</tns:name>
+<tns:age>38</tns:age>
+<tns:salary>90000</tns:salary>
+<tns:email>karan@gmail.com</tns:email>
+<tns:phone>8908904560</tns:phone>
+<tns:designation>Manager</tns:designation>
+</tns:Employee>
+<tns:Employee fid="idvalue2">
+<tns:name>Arjun</tns:name>
+<tns:age>42</tns:age>
+<tns:salary>95000</tns:salary>
+<tns:email>karan@gmail.com</tns:email>
+<tns:phone>8908904545</tns:phone>
+<tns:designation>Developer</tns:designation>
+</tns:Employee>
+<tns:Employee fid="idvalue3">
+<tns:name>Aman</tns:name>
+<tns:age>50</tns:age>
+<tns:salary>150000</tns:salary>
+<tns:email>aman@gmail.com</tns:email>
+<tns:phone>8908904453</tns:phone>
+<tns:designation>Team Leader</tns:designation>
+</tns:Employee>
+<tns:Employee fid="idvalue4">
+<tns:name>Chirag</tns:name>
+<tns:age>40</tns:age>
+<tns:salary>96000</tns:salary>
+<tns:email>chirag@gmail.com</tns:email>
+<tns:phone>8908909087</tns:phone>
+<tns:designation>Developer</tns:designation>
+</tns:Employee>
+</tns:globalEmployee>

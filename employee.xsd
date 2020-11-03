@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.CIA-1.org/employee"
+xmlns:tns="http://www.CIA-1.org/employee">
+	<xs:complexType name="CompanyType">
+	<xs:sequence>
+	<xs:element name="Employee" type="tns:EmployeeType" maxOccurs="6" minOccurs="1">
+	</xs:element>
+	</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="EmployeeType">
+	<xs:sequence>
+	<xs:element name="name" type="xs:string"></xs:element>
+	<xs:element name="age" type="xs:positiveInteger"></xs:element>
+	<xs:element name="salary" type="tns:MySalary"></xs:element>
+	<xs:element name="email" type="xs:string"></xs:element>
+	<xs:element name="phone" type="xs:positiveInteger"></xs:element>
+	<xs:element name="designation" type="xs:string"></xs:element>
+	</xs:sequence>
+	<xs:attribute name="fid" type="xs:ID" use="required">
+	</xs:attribute>
+	</xs:complexType>
+	<xs:element name="globalEmployee" type="tns:CompanyType">
+	</xs:element>
+	<xs:simpleType name="MySalary">
+	<xs:restriction base="xs:positiveInteger">
+	<xs:minExclusive value="50000"></xs:minExclusive>
+	<xs:maxExclusive value="200000"></xs:maxExclusive>
+	</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
