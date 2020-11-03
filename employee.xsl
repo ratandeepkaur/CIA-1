@@ -4,7 +4,7 @@
 <html>
 <body>
 <h1>Employee Management System</h1>
-<table border="2">
+<table border="4">
 <tr>
 <th>Employee Id</th>
 <th>Employee Name</th>
@@ -17,7 +17,7 @@
 </tr>
 <xsl:for-each select="globalEmployee/Employee">
 <tr>
-<td><xsl:value-of select="Employee/fid"/></td>
+<td><xsl:value-of select="Employee.fid"/></td>
 <td><xsl:value-of select="name"/></td>
 <td><xsl:value-of select="age"/></td>
 <td><xsl:value-of select="salary"/></td>
