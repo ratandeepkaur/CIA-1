@@ -6,7 +6,7 @@
 <center>
 <h1>Employee Management System</h1>
 <table border="4">
-<tr>
+<tr bgcolor="green">
 <th>Employee Id</th>
 <th>Employee Name</th>
 <th>Employee Age</th>
@@ -17,7 +17,7 @@
 <th>Employee Promotion</th>
 </tr>
 <xsl:for-each select="globalEmployee/Employee">
-<tr>
+<tr bgcolor="grey">
 <td><xsl:value-of select="@fid"/></td>
 <td><xsl:value-of select="name"/></td>
 <td><xsl:value-of select="age"/></td>
