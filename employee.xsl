@@ -18,7 +18,7 @@
 </tr>
 <xsl:for-each select="globalEmployee/Employee">
 <tr>
-<td><xsl:value-of select="fid"/></td>
+<td><xsl:value-of select="@fid"/></td>
 <td><xsl:value-of select="name"/></td>
 <td><xsl:value-of select="age"/></td>
 <td><xsl:value-of select="salary"/></td>
